@@ -15,18 +15,18 @@
     
     
     outline: none;
-    background-color: #345492   ;
+    background-color: #3B72C5   ;
 }
 .button:hover
 {
-    background-color: #415e9e;
+    background-color: #365899;
     
 
 } 
 .grad{
     height:300;
-    background-color: #dfe3ee;
-    background-image: linear-gradient(to top ,#dfe3ee,#f7f7f7)
+    background-color: #E2E5F0;
+    background-image: linear-gradient(to top ,#E2E5F0,#f7f7f7)
 
 
 }
