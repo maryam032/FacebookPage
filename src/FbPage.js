@@ -34,7 +34,7 @@ class FbPage extends React.Component{
                 <div>
                 <div className="grad" style={{float:'left',width:664,height:510,backgroundColor:'#dfe3ee '}}>
                   <p style={{marginLeft:180,fontSize:20,fontWeight:'bold',color:'#0E385F',fontFamily:'Arial',marginTop:40}}>Facebook helps you connect and share with the people in your life.</p>
-                  <img style={{marginTop:18,outline:'none',display:'block',width:"500px" ,marginLeft:180}}src={process.env.PUBLIC_URL +"/facebookpage.png.png"}
+                  <img style={{marginTop:18,outline:'none',display:'block',width:"530px" ,marginLeft:180}}src={process.env.PUBLIC_URL +"/facebookpage.png.png"}
                  alt="Mypic" />
                 </div>
                 
@@ -196,6 +196,24 @@ class FbPage extends React.Component{
                         <option value="1930">1930</option>
                     </select>
                     </div>
+                    <div style={{height:40,marginTop:5}}>
+                    <span style={{fontWeight:'bolder',color:'#90949C'}}>Gender</span>
+                    <div style={{marginTop:5,}}>
+                    <input  type="radio" name="gender" value="male" /> Female
+                    <input  style={{marginLeft:20}} type="radio" name="gender" value="female"/> Male
+                    <input style={{marginLeft:20}} type="radio" name="gender" value="other" /> Custom
+                    </div>
+                    <div >
+                        <p style={{float:'left',fontSize:12,color:'#77779',marginRight:5}}>By clicking Sign Up, you agree to our Terms, </p>
+                        <p style={{float:'left',fontSize:12,color:'#69A8DE',}}>Data Policy </p>
+                        <p style={{float:'left',marginLeft:5,marginRight:5,fontSize:12,color:'#77779'}}>and </p>
+                        <p style={{float:'left',fontSize:12,color:'#69A8DE'}}>Cookie Policy. </p>
+                    </div>
+                    <div style={{marginRight:200,marginTop:50}}>
+                        <input  style={{width:220,height:40,borderRadius:'3px',padding:8,border:'none',outline:'none',backgroundColor:'#62A24F',color:'white',fontWeight:'bolder',fontSize:'20px',fontFamily:'Arial'}}type="button" value="Sign Up"></input>
+                    </div>
+                    </div>
+                   
                     </div>
                 </div>
                 </div>

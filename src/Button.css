@@ -21,12 +21,13 @@
 {
     background-color: #365899;
     
-
+   
 } 
 .grad{
-    height:300;
+    height:1000;
+    width: 1350;
     background-color: #E2E5F0;
-    background-image: linear-gradient(to top ,#E2E5F0,#f7f7f7)
+    background-image: linear-gradient(to top ,#DDDFE2, #F9FAFC)
 
 
 }
